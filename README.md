@@ -23,7 +23,12 @@ Here are the steps to compile:
 2. Build the easysoap++ library, and copy the compiled DLL to the \Visual Mercutio\exe\ directory (for the Debug version), and the \Visual Mercutio\exeR\ directory (for the Release version), respectively
 3. Build the expat library, and copy the compiled DLL to the \Visual Mercutio\exe\ directory (for the Debug version), and the \Visual Mercutio\exeR\ directory (for the Release version), respectively
 4. Build the Stingray Studio library, and copy the following compiled DLLs: RWUXThemeS.dll, sfl204as.dll, og904as.dll, OT804as.dll and OV804as.dll, to the \Visual Mercutio\exe\ directory (for the Debug version), and the \Visual Mercutio\exeR\ directory (for the Release version), respectively
-5. Open the VisualMercutio.sln solution in Visual Studio 2019, right click on zProcess32 project and select Rebuild
+
+   **NOTE** a copy of the Stingray Studio component suite need to be legally obtained from the Perforce company:
+   https://www.perforce.com/products/stingray
+   Unfortunately, there is no other legal way to provide publicly the owned source code of the Stingray Studio components, nor to even distribute the compiled library.
+   
+6. Open the VisualMercutio.sln solution in Visual Studio 2019, right click on zProcess32 project and select Rebuild
 
 ## Monitor
 The Monitor server is a set of several services which allows to publish data exported from the Visual Mercutio application into a database, which may be accessed from a network. The services composing the Monitor server are:
